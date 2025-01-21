@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 import pickle
-from song_similarity_finder import extract_features, build_song_database, find_similar_songs
+from src.song_similarity_finder import extract_features, build_song_database, find_similar_songs
 
 def main():
     st.title("Song Similarity Finder")
